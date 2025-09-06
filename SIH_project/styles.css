@@ -1,0 +1,21 @@
+/****Global Variables****/
+:root{
+	--primary-color			: #222222;
+	--secondary-color		: #F5F5F5;
+	--text-color			: #81848A;
+	--accent-color			: #5b5b5b;
+	--white-color			: #FFFFFF;
+	--divider-color			: #EBEBEB;
+	--dark-divider-color	: #FFFFFF1A;
+	--error-color			: rgb(230, 87, 87);
+	--default-font			: "Manrope", sans-serif;
+}
+
+/****General CSS****/
+body{
+	font-family: var(--default-font);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.7em;
+	color: var(--text-color);
+}
